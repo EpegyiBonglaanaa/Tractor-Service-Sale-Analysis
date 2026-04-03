@@ -71,6 +71,10 @@ GROUP BY
 
 **What the code does:** This query filters the dataset to include only records from November (Month = 11) where the operator’s name contains “Ashraf,” and then groups the results by commodity. It calculates the total quantity sold for each commodity by summing the Sale_Quantity values within each group. The final output is a summarized table showing how much of each commodity (e.g., maize, soya) Ashraf sold during that month, making it useful for performance tracking and reporting.
 
+## Dashboard Report
+<img width="1307" height="847" alt="Analysis Dashboard_2" src="https://github.com/user-attachments/assets/10efc599-f007-4935-b4c8-4ce8fcb311e2" />
+
+
 ## Findings / Results
 - The company made more sales of the produce gathered from the service delivery in December 2025, the peak month for the activity.
 - The company made more sales of the produce gathered from the service delivery in December 2025, the peak month for the activity.
