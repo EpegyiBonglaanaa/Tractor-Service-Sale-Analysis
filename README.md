@@ -13,6 +13,8 @@
 
 •	[Data Analysis](#data-analysis)
 
+•	[Dashboard Report](#dashboard-report)
+
 •	[Findings / Results](#findings--results)
 
 •	[Recommendations](#recommendations)
