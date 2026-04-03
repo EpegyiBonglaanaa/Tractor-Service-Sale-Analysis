@@ -1,5 +1,5 @@
 # Tractor Service Sale Analysis
-Table of Content
+## Table of Content
 
 •	[Project Overview](#project-overview)
 
@@ -13,7 +13,7 @@ Table of Content
 
 •	[Data Analysis](#data-analysis)
 
-•	[Findings/ Results](#findings/results)
+•	[Findings / Results](#findings--results)
 
 •	[Recommendations](#recommendations)
 
@@ -55,7 +55,8 @@ EDA revolve around exploring the service delivery data to answer some key questi
 - Who is the largest value chain partner in 2025?
   
 ## Data Analysis
-```SELECT
+```sql
+SELECT
     Commodity,
     SUM(Sale_Quantity) AS Total_Quantity
 FROM
@@ -64,11 +65,13 @@ WHERE
     Month = 11
     AND Name_of_Op LIKE '%Ashraf%'
 GROUP BY
-    Commodity;```
+    Commodity;
+```
 
-What the code does: This query filters the dataset to include only records from November (Month = 11) where the operator’s name contains “Ashraf,” and then groups the results by commodity. It calculates the total quantity sold for each commodity by summing the Sale_Quantity values within each group. The final output is a summarized table showing how much of each commodity (e.g., maize, soya) Ashraf sold during that month, making it useful for performance tracking and reporting.
 
-## Findings/Results
+**What the code does:** This query filters the dataset to include only records from November (Month = 11) where the operator’s name contains “Ashraf,” and then groups the results by commodity. It calculates the total quantity sold for each commodity by summing the Sale_Quantity values within each group. The final output is a summarized table showing how much of each commodity (e.g., maize, soya) Ashraf sold during that month, making it useful for performance tracking and reporting.
+
+## Findings / Results
 - The company made more sales of the produce gathered from the service delivery in December 2025, the peak month for the activity.
 - The company made more sales of the produce gathered from the service delivery in December 2025, the peak month for the activity.
 - The tractor operator who made the largest sale in services delivery for the period under study is “Ashraf”
@@ -80,4 +83,5 @@ Based on the analysis, I recommend the following:
 •	Soya covers the larger proportion of sale volumes meanwhile maize is widely grown in the region, so a market analysis needs to conducted to find out the cause and devise strategies to get the optimum share of both commodities in our operation.
 •	Implement buyer segmentation to group top buyers for effective sale targeting
 
-Limitation
+## Limitation
+NA
