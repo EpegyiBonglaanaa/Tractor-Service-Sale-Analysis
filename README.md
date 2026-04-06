@@ -28,7 +28,7 @@ Sales Data: The primary dataset used for this analysis is “TECAS Sale Data_Thr
 ## Tools
 - Excel – Data Cleaning
 - MySQL – Data Analysis
-- Power BI – Creating report [Download for Free Here]( power bi download - Search)
+- Power BI – Creating report [Download for Free Here](https://www.microsoft.com/en-us/power-platform/products/power-bi/downloads?ocid=ORSEARCH_Bing&msockid=2c328bbf2b3167101ab79c8d2ab46616)
 
 ## Data Cleaning and Preparation
 1.	Error Correction
