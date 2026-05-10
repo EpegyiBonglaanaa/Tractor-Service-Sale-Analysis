@@ -86,8 +86,9 @@ GROUP BY
 
 ## Recommendations
 Based on the analysis, I recommend the following:
-•	Soya covers the larger proportion of sale volumes meanwhile maize is widely grown in the region, so a market analysis needs to conducted to find out the cause and devise strategies to get the optimum share of both commodities in our operation.
-•	Implement buyer segmentation to group top buyers for effective sale targeting
+
+- Soya covers the larger proportion of sale volumes meanwhile maize is widely grown in the region, so a market analysis needs to conducted to find out the cause and devise strategies to get the optimum share of both commodities in our operation.
+- Implement buyer segmentation to group top buyers for effective sale targeting
 
 ## Limitation
 NA
